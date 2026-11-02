@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.pkl
+*.pth
+*.pt
+result/
+datasets/*/
+pngResult/
+mats/
+txtResult/
+.DS_Store
+._*
+
