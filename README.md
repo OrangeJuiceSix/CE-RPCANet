@@ -1,7 +1,8 @@
 # CE-RPCANet
 
-This repository contains the CE-RPCANet implementation and the comparison
-code used in the accompanying infrared small target detection experiments.
+This repository provides the official PyTorch implementation of CE-RPCANet
+for infrared small target detection, including training, testing, and
+evaluation code.
 
 ## Models
 
@@ -43,18 +44,3 @@ Set the checkpoint and dataset paths in `test.py`, then run:
 python test.py
 python evaluate.py
 ```
-
-## Comparison methods
-
-Each directory under `comparison/` contains the model source, training code,
-inference code, evaluation code, and method-specific instructions:
-
-- MSHNet
-- L2SKNet-FPN
-- GSFANet
-- DRPCA-Net
-- DATransNet
-- FGARNet
-- MSHNet-NSFPN
-- SP-KAN
-- RPCANetPP
